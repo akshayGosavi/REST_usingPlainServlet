@@ -8,7 +8,7 @@ GET - all objects
  request = <server_path>/database 
 
 GET - specific object
- request = <server_path>/database/<id>
+ request = <server_path>/database/<object_id>
  
 POST - 
  request = /database
