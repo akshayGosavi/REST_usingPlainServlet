@@ -1,0 +1,16 @@
+# SVN and Eclipse files
+.svn
+.settings
+.project
+
+# Classes and Class directories
+*.class
+classes/
+
+# Maven Target Directory
+target/
+
+# Package Files #
+*.jar
+*.war
+*.ear
