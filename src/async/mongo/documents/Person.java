@@ -27,7 +27,7 @@ public class Person{
 	}	
 	
 	public Document getPersonDoc(){
-		Document person = new Document("id", getSsn())
+		Document person = new Document()
 				.append("ssn", getSsn())
 				.append("name", getName().getNameDoc());
 		return person;
